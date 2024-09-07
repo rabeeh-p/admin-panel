@@ -116,3 +116,8 @@ def sampleView(request):
     context={'name':'rabeeh','age':22,'place':'kadalundi'}
     # context={'name':'rabeeh'}
     return render(request,'sample_view.html',context)
+
+
+
+def  sample_fn(request):
+    return render(request,'sample.html')
